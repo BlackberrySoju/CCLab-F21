@@ -1,0 +1,43 @@
+body{
+  font-family: cursive;
+  font-weight: 1000;
+  background-image: url(https://static.onecms.io/wp-content/uploads/sites/20/2021/09/02/lil-nas-x-3.jpg);
+  height: 100%;
+ background-position: center;
+ background-repeat: no-repeat;
+ background-size: cover;
+}
+.container1{
+  background-color: #284B83;
+
+}
+img{
+  float: left;
+  paddingl: 10px;
+}
+h1{
+  margin-left: 200px;
+  font-size: 50px;
+}
+h2{
+    margin-left: 200px;
+  font-size: 50px;
+}
+iframe{
+    margin-left: 600px;
+}
+p{
+  color: white;
+  display: table;
+       margin: 0px auto 0px auto;
+       padding: 3px;
+       font-size: 24px;
+       background-color: #30cf52;
+       color: #fff;
+}
+.favorite{
+  background-color: purple;
+}
+#smaller{
+  font-size: 70;
+}
