@@ -1,0 +1,129 @@
+@font-face {
+  src: url(ppp.ttf);
+  font-family: nom;
+
+}
+
+/* .KIR{
+  padding: 76px;
+  border: 25px;
+  border-style: solid;
+  border-color: rgb(595, 55, 91);
+  margin: 40px;
+  width: 600px;
+  height: 600px;
+  background-color: lightgreen;
+  text-align: center;
+
+  #myContainer {
+    position: absolute;
+    left: CENTER;
+    top: CENTER;
+    text-align: center;
+  }
+} */
+h2{
+
+  text-align: CENTER;
+  position: absolute;
+  z-index: 5;
+  font-size: 100px;
+  font-family: nom;
+  left: 37%;
+  color: #fff;
+  text-align: center;
+  animation: glow 1s ease-in-out infinite alternate;
+
+
+}
+h1{
+
+  text-align: CENTER;
+  position: absolute;
+  z-index: 5;
+  font-size: 100px;
+  font-family: nom;
+  left: 27%;
+  color: #fff;
+  text-align: center;
+  animation: glow 1s ease-in-out infinite alternate;
+
+
+}
+
+p{
+  border-style: groove;
+  border-color: #fff;
+  text-align: CENTER;
+  position: absolute;
+  z-index: 5;
+  font-size: 50px;
+  font-family: nom;
+  top: 50%;
+  left: 2%;
+  color: #fff;
+  text-align: center;
+  animation: glow 1s ease-in-out infinite alternate;
+}
+
+
+.LLL{
+
+  text-align: CENTER;
+  position: absolute;
+  z-index: 5;
+  font-size: 100px;
+  font-family: nom;
+  top: 90%;
+  left: 13%;
+  color: #fff;
+  text-align: center;
+  animation: glow 1s ease-in-out infinite alternate;
+
+
+}
+
+.container1{
+  text-align: center;;
+    background-color: lightblue;
+
+}
+
+#sketchContainer{
+  position: absolute;
+  top: 28.5%;
+    left: 27%;
+
+}
+.OOO{
+  position: absolute;
+      top: -57%;
+      left: -88.55%;
+}
+
+body {
+  background-color: black;
+  font-family: cursive;
+}
+
+
+@-webkit-keyframes glow {
+  from {
+    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #e60073, 0 0 40px #e60073, 0 0 50px #e60073, 0 0 60px #e60073, 0 0 70px #e60073;
+  }
+
+  to {
+    text-shadow: 0 0 20px #fff, 0 0 30px #ff4da6, 0 0 40px #ff4da6, 0 0 50px #ff4da6, 0 0 60px #ff4da6, 0 0 70px #ff4da6, 0 0 80px #ff4da6;
+  }
+
+
+/* .LLL{
+  background-image: url('kirbyg.jpeg');
+background-repeat: no-repeat;
+background-size: 300px 100px;
+} */
+/* .scaled{
+  transform: scale(0.85);
+  width: 157px;
+  height: 171px;
+} */
