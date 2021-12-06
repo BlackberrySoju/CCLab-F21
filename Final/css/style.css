@@ -1,0 +1,68 @@
+@font-face {
+  src: url(ppp.ttf);
+  font-family: nom;
+
+}
+
+/* .KIR{
+  padding: 76px;
+  border: 25px;
+  border-style: solid;
+  border-color: rgb(595, 55, 91);
+  margin: 40px;
+  width: 600px;
+  height: 600px;
+  background-color: lightgreen;
+  text-align: center;
+
+  #myContainer {
+    position: absolute;
+    left: CENTER;
+    top: CENTER;
+    text-align: center;
+  }
+} */
+
+h1{
+
+text-align: CENTER;
+  font-size: 300px;
+  font-family: nom;
+
+
+}
+.container1{
+  text-align: center;;
+    background-color: lightblue;
+
+
+
+
+/* .fitter{
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  width: 50%;
+  height: 50%;
+  padding: 20px;
+  text-align: center;
+} */
+
+body {
+  height: 100%;
+  margin: 0;
+  display: flex;
+
+  /* This centers our sketch horizontally. */
+  justify-content: center;
+
+  /* This centers our sketch vertically. */
+  align-items: center;
+}
+
+canvas{
+display: absolute;
+pixel:100px;
+
+}
