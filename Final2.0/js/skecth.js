@@ -98,8 +98,8 @@ function draw() {
   for (let i = 0; i < trail.length; i++) {
     noStroke();
     fill(mouseX + random(r), mouseY + random(g), mouseY + b, mouseY + a);
-    ellipse(trail[i][0], trail[i][1], 6, 1);
-    ellipse(trail[i][0], trail[i][1], 1, 6);
+    ellipse(trail[i][0], trail[i][1], 49, 20);
+    ellipse(trail[i][0], trail[i][1], 20, 49);
 
     if (a > 255) {
       trail.shift();
